@@ -46,3 +46,7 @@ Register these maps by inserting the following text into /smac/smac/env/starcraf
         "map_type": "MMM",
     },
 ```
+
+An example to run the guiding solution.
+```bash
+python3 src/main.py --config=qmix --env-config=sc2 with env_args.map_name=HeA_Mixed2Group agent=dolc mac=dolc learner=dolc use_tensorboard=True save_model=True isDamageReward=True beta_finish=1 name=DOLC_M2G
